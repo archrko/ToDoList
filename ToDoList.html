@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"  href="style.css" />
+</head>
+<body>
+
+<div id="myDIV" class="header">
+  <h2 style="margin:5px">My To Do List</h2>
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+  <span> Item Count:<span id="item-count">6</span></span>
+  <span> Unchecked:<span id="unchecked-count">5</span></span>
+</div>
+
+<ul id="myUL">
+  <li>Hit the gym</li>
+  <li class="checked">Play Dota</li>
+  <li>Meet Andrew</li>
+  <li>Buy eggs</li>
+  <li>Read a book</li>
+  <li>Organize next day</li>
+</ul>
+
+<script src="script.js"></script>
+</body>
+</html>
